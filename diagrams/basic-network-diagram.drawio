@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.3">
+  <diagram name="Página-1" id="fRhvOk9fECtg6_jN_c6d">
+    <mxGraphModel dx="946" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=mxgraph.networks.router;html=1;" value="Roteador / Gateway (WAN)" vertex="1">
+          <mxGeometry height="80" width="230" x="130" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=mxgraph.networks.switch;html=1;" value="Switch (LAN)" vertex="1">
+          <mxGeometry height="80" width="150" x="170" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="shape=mxgraph.computers.pc;html=1;" value="Notebook do Usuário (LAN)" vertex="1">
+          <mxGeometry height="60" width="170" x="60" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="shape=mxgraph.computers.server;html=1;" value="&lt;ul data-start=&quot;604&quot; data-end=&quot;781&quot;&gt;&lt;li data-start=&quot;740&quot; data-end=&quot;781&quot;&gt;&lt;p data-start=&quot;742&quot; data-end=&quot;781&quot;&gt;&lt;code data-start=&quot;759&quot; data-end=&quot;781&quot;&gt;Servidor Local (LAN)&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p data-start=&quot;783&quot; data-end=&quot;841&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="270" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" target="4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" target="5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
